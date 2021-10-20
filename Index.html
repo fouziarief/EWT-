@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="app.js"></script>
+</head>
+
+<body>
+    <navbar class="navbar">
+          <div id="container">
+              <h2 class="logo">ZiDesign</h2>
+              <ul class="menulist  ">
+                  <li class="navlist">
+                      <a href="#" class="link">HOME</a>
+                  </li>
+                  <li class="navlist">
+                      <a href="#" class="link">About</a>
+                  </li>
+                  <li class="navlist">
+                      <a href="#" class="link">Service</a>
+                  </li>
+                  <li class="button">
+                      <a href="#" class="login">login </a>
+                  </li>
+              </ul>  
+          </div>  
+    </navbar>
+    <form name ="myform" onsubmit="return vfun()" class="registration">
+        
+       <fieldset>
+           <legend>login </legend>
+           
+        <label for="FirstName">Username</label>
+        <input type="text" name="FirstName" required id="FirstName" placeholder="Enter your name"><br><br>
+        <label for="LastName">Password</label>
+        <input type="password" name="LastName" id="Password" placeholder="Enter your Password"><br><br>
+
+        <div id="errorbox">        <button class="sigin" >Login</button><br><br><br>
+
+<a href="registration.html" class="signup">register your new account</a>
+
+
+</div>
+</fieldset> 
+</form>
+</body>
+
+</html>

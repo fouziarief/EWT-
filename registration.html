@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registerStyle.css">
+</head>
+
+<body>
+    <div class="box">
+    <form name ="registration form" onsubmit="return vfun()" class="registration">
+           <h2>Register</h2> 
+           <p>create your account</p>
+         <label for="FirstName">FirstName</label>
+         <input type="text" name="FirstName" required id="FirstName" placeholder="Enter your First name"><br><br>
+         <label for="LastName">LastName</label>
+         <input type="text" name="LastName" id="LastName" placeholder="Enter your Last name"><br><br>
+         <label for="Paswd">Password</label>
+         <input type="password" required><br><br>
+         <label for="rePaswd">Confirm Password</label>
+         <input type="password" required><br><br>
+
+         <label for="Gender">Gender</label>
+         
+         <select name="Gender" id="Gender">
+         <option value="Male">Male</option>
+         <option value="FeMale">Female</option>
+         <option value="Others">other</option>
+        </select><br><br>
+ <button class="register" >Register Now</button><br><br><br>
+ 
+ Already Have an account?<a href="index.html">Sign In</a>
+ 
+
+ </form>
+</div>
+</body>
+</html>
